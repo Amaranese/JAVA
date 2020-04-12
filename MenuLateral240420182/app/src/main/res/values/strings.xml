@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MenuLateral24042018</string>
+    <string-array name="pantallas">
+        <item>Inicio</item>
+        <item>Perfil</item>
+        <item>Ajustes</item>
+    </string-array>
+</resources>

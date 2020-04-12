@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.DrawertLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context="com.example.alumnos.menulateral24042018.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/contenido"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ListView
+        android:id="@+id/menuLateral"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorAmarillo"
+        android:layout_gravity="left"
+        android:entries="@array/pantallas"/>
+
+</android.support.constraint.DrawertLayout>

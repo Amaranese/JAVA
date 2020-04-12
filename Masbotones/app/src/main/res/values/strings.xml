@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Masbotones</string>
+    <string name="txtRed">Rojo </string>
+    <string name="txtGreen">Verde </string>
+    <string name="txtBlue">Azul </string>
+</resources>

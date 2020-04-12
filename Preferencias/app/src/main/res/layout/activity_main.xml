@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.alumnos.grupos.MainActivity">
+
+    <EditText
+        android:id="@+id/editTextBandName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/band_name"/>
+
+    <EditText
+        android:id="@+id/editTextBandBio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/band_bio"/>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add"/>
+
+    <ListView
+        android:id="@+id/listViewBands"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

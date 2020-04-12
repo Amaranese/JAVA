@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">4botones</string>
+    <string name="txt1">Has pulsado el primer boton</string>
+    <string name="txt2">Has pulsado el segundo boton</string>
+    <string name="txt3">Has pulsado el tercer boton</string>
+    <string name="txt4">Has pulsado el cuarto boton</string>
+</resources>

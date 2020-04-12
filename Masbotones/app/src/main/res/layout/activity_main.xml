@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alumnos.masbotones.MainActivity">
+
+    <RadioGroup android:id="@+id/groupColors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton android:id="@+id/radioRed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtRed"/>
+
+        <RadioButton android:id="@+id/radioGreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtGreen"/>
+
+        <RadioButton android:id="@+id/radioBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtBlue"/>
+    </RadioGroup>
+
+
+    <TextView android:id="@+id/txtColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+</android.support.constraint.ConstraintLayout>

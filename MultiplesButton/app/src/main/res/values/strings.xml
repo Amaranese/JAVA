@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MultiplesButton</string>
+    <string name="txt1">Has pulsado el botón 1</string>
+    <string name="txt2">Has pulsado el botón 2</string>
+    <string name="txt3">Has pulsado el botón 3</string>
+    <string name="txt4">Has pulsado el botón 4</string>
+</resources>

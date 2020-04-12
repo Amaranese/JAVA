@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Дополнительныекнопки</string>
+    <string name="txtRed">красный</string>
+    <string name="txtGreen">зеленый</string>
+    <string name="txtBlue">синий</string>
+</resources>

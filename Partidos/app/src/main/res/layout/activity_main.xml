@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.alumnos.partidos.MainActivity">
+
+    <EditText android:id="@+id/editEq1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Equipo 1" />
+
+    <EditText android:id="@+id/editEq2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Equipo 2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText android:id="@+id/editGol1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Goles 1"
+            android:layout_weight="1"
+            android:inputType="number"/>
+
+        <EditText android:id="@+id/editGol2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Goles 2"
+            android:layout_weight="1"
+            android:inputType="number"/>
+    </LinearLayout>
+
+
+    <Button android:id="@+id/btnInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Guardar" />
+
+    <ListView android:id="@+id/listPartidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</LinearLayout>

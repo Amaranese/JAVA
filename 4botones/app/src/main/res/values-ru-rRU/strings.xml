@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">4кнопки</string>
+    <string name="txt1">Вы нажали на первую кнопку</string>
+    <string name="txt2">Вы нажали вторую кнопку</string>
+    <string name="txt3">Вы нажали третью кнопку</string>
+    <string name="txt4">Вы нажали четвертую кнопку</string>
+</resources>
